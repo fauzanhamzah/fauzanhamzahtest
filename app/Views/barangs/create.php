@@ -65,6 +65,9 @@
                     </div>
                 </div>
             </form>
+            <h6><i>catatan:</i></h6>
+            <p class="text-justify">
+                Kenapa saya tidak menggunakan modal/popup untuk form, karena saya mendapatkan bug/error ketika validasi form untuk field yang unique.Ketika saya masukan nama barang yang sama form pada modal tidak bisa mengambil data validasi error tersebut jadi form tidak bisa menampilkan bahwa nama barang tersebut sudah ada. Akan tetapi data yang dimasukan pada form tidak bisa masuk ke database karena terhalang oleh rule yang telah dibuat.</p>
         </div>
     </div>
 </div>
