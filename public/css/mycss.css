@@ -1,0 +1,23 @@
+.foto_barang {
+    width: 85px;
+    height: 85px;
+}
+
+.table > tbody > tr > td {
+    vertical-align: middle;
+    
+}
+
+/* .invalid class prevents CSS from automatically applying */
+.invalid input:required:invalid {
+    background: #BE4C54;
+}
+
+/* Mark valid inputs during .invalid state */
+.invalid input:required:valid {
+    background: #17D654;
+}
+.card-img-top{
+    height: 350px;
+    width: 190px;
+}
