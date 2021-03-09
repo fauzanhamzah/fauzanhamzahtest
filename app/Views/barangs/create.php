@@ -60,7 +60,8 @@
                 </div>
                 <div class="form-group row">
                     <div class="col-sm-9">
-                        <button type="submit" class="btn btn-primary">Tambah barang</button>
+                        <a href="/barang" class="btn btn-warning btn-sm">Kembali</a>
+                        <button type="submit" class="btn btn-primary btn-sm">Tambah barang</button>
                     </div>
                 </div>
             </form>
