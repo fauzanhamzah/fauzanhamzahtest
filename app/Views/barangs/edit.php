@@ -1,10 +1,10 @@
-<?= $this->extend('templeates/master'); ?>
+<?= $this->extend('layouts/master'); ?>
 
 <?= $this->section('content'); ?>
 <div class="container-fluid">
     <div class="row">
         <div class="col-8">
-            <h1 class="mt-4 mb-3"><?= $header; ?></h1>
+            <!-- <h1 class="mt-4 mb-3"><?= $header; ?></h1> -->
             <form action="/barang/update/<?= $barang['id']; ?>" method="POST" enctype="multipart/form-data">
                 <?= csrf_field(); ?>
                 <input type="hidden" name="alias_barang" value="<?= $barang['alias_barang']; ?>">

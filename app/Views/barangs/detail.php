@@ -1,4 +1,4 @@
-<?= $this->extend('templeates/master'); ?>
+<?= $this->extend('layouts/master'); ?>
 
 <?= $this->section('content'); ?>
 <div class="container">
